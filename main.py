@@ -7,7 +7,7 @@ df.drop('index', axis=1, inplace=True)
 df.head()
 
 # print(df.dtypes)
-
+#elo
 df['Result'].unique()
 
 df_result = df[df['Result']==1]       # Legitimate
